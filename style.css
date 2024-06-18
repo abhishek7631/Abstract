@@ -1,0 +1,241 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  height: 6rem;
+  width: 100vw;
+  /* position: sticky;
+  top: 0; */
+}
+
+.logo img {
+  height: 2rem;
+  margin-top: 1.875rem;
+  margin-left: 5.625rem;
+  background-color: black;
+}
+
+.logo p {
+  font-size: 1.5625rem;
+  border-left: 0.125rem solid white;
+  padding-left: 0.625rem;
+  position: relative;
+  bottom: 2rem;
+  margin-left: 14.5rem;
+  color: white;
+}
+
+.buttons {
+  margin-top: 1.2rem;
+  margin-right: 70px;
+}
+
+.btn1 {
+  font-size: 22px;
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  margin-right: 15px;
+  width: 200px;
+  height: 20;
+}
+
+.btn2 {
+  font-size: 22px;
+  background-color: #4c5fd5;
+  border: none;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  width: 115px;
+  height: 30;
+}
+
+.btn2:hover {
+  color: black;
+  background-color: white;
+}
+
+.help-section {
+  width: 100vw;
+  height: 390px;
+  background-color: #dadbf1;
+}
+
+.help-section p {
+  padding-top: 90px;
+  margin-left: 330px;
+  font-size: 80px;
+}
+
+.help-section input {
+  margin-left: 290px;
+  margin-top: 20px;
+  width: 700px;
+  height: 60px;
+  border-radius: 5px;
+  padding: 15px;
+  border: 1px solid black;
+  font-size: 20px;
+}
+
+.help-section span {
+  position: relative;
+  right: 40px;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.help-section span:hover {
+  transition: 0.2s ease-in-out;
+  color: #4c5fd5;
+}
+
+.container-1 {
+  display: flex;
+  margin-top: 180px;
+  justify-content: space-evenly;
+}
+
+.abstract {
+  display: flex;
+}
+
+.abstract img {
+  height: 80px;
+  width: 80px;
+}
+
+.abs-img {
+  margin-right: 30px;
+}
+
+.abs-content h3 {
+  font-size: 30px;
+}
+
+.abs-content p {
+  margin-top: 15px;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.abs-content span {
+  color: #4c5fd5;
+  font-size: 20px;
+}
+
+.account {
+  display: flex;
+}
+
+.account img {
+  height: 80px;
+  width: 80px;
+}
+
+.acc-img {
+  margin-right: 30px;
+}
+
+.acc-content {
+  font-size: 30px;
+}
+
+.acc-content p {
+  margin-top: 15px;
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.acc-content span {
+  color: #4c5fd5;
+  font-size: 20px;
+}
+
+.footer-container {
+  background-color: black;
+  margin-top: 150px;
+  height: 400px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+.trail {
+  margin-top: 60px;
+  color: white;
+}
+
+.trail h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.trail p {
+  font-size: 15px;
+}
+
+.resource {
+  margin-top: 60px;
+  color: white;
+}
+
+.resource h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.resource p {
+  font-size: 15px;
+}
+
+.community {
+  margin-top: 60px;
+  color: white;
+}
+
+.community h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.community p {
+  font-size: 15px;
+}
+
+.company {
+  margin-top: 60px;
+  color: white;
+}
+
+.company h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.company p {
+  font-size: 15px;
+}
+
+.copyright {
+  margin-top: 260px;
+  color: white;
+}
+
+.copyright h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.copyright p {
+  font-size: 15px;
+}
